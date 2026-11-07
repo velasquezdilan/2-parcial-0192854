@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RENTCARS - Alquiler de autos</title>
+  <!-- Iconos de FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Fuente Google Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">
+      <div class="logo-icon"><i class="fa-solid fa-car"></i></div>
+      <span class="logo-text">RENTCARS</span>
+    </div>
+
+    <nav class="nav-links">
+      <a href="#" class="active">Become a renter</a>
+      <a href="#">Rental deals</a>
+      <a href="#">How it work</a>
+      <a href="#">Why choose us</a>
+    </nav>
+
+    <div class="auth-buttons">
+      <a href="#" class="btn-login">Sign in</a>
+      <a href="#" class="btn-signup">Sign up</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero max-container">
+    <div class="hero-text">
+      <h1>Find, book and rent a car <span>Easily</span></h1>
+      <p>Get a car wherever and whenever you need it with your iOS and Android device.</p>
+      <div class="app-buttons">
+        <button class="btn-app">
+          <i class="fa-brands fa-google-play"></i>
+          <div>
+            <span class="subtitle">Get it on</span>
+            <span class="title">Google Play</span>
+          </div>
+        </button>
+        <button class="btn-app">
+          <i class="fa-brands fa-apple"></i>
+          <div>
+            <span class="subtitle">Download on the</span>
+            <span class="title">App Store</span>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="circle-bg"></div>
+      <img src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80" alt="Porsche Blue" />
+    </div>
+  </section>
+
+  <!-- BARRA DE RESERVA -->
+  <section class="booking-section max-container">
+    <div class="booking-bar">
+      <div class="booking-field">
+        <label><i class="fa-solid fa-location-dot"></i> Location</label>
+        <input type="text" placeholder="Search your location" />
+      </div>
+      <div class="booking-field">
+        <label><i class="fa-solid fa-calendar"></i> Pickup date</label>
+        <input type="date" />
+      </div>
+      <div class="booking-field">
+        <label><i class="fa-solid fa-calendar-check"></i> Return date</label>
+        <input type="date" />
+      </div>
+      <button class="btn-search">Search</button>
+    </div>
+  </section>
+
+  <!-- PASOS -->
+  <section class="steps-section max-container">
+    <span class="badge">How it works</span>
+    <h2>Rent with following 3 working steps</h2>
+
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-icon"><i class="fa-solid fa-location-dot"></i></div>
+        <h3>Choose location</h3>
+        <p>Choose your location and find your best car for your trip</p>
+      </div>
+      <div class="step-card">
+        <div class="step-icon"><i class="fa-solid fa-calendar-days"></i></div>
+        <h3>Pick-up date</h3>
+        <p>Select your pick-up date and time to book your car</p>
+      </div>
+      <div class="step-card">
+        <div class="step-icon"><i class="fa-solid fa-car-side"></i></div>
+        <h3>Book your car</h3>
+        <p>Book your car and we will deliver it directly to your door</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARCAS -->
+  <section class="brands-section">
+    <div class="brands-container max-container">
+      <span>HONDA</span>
+      <span>JAGUAR</span>
+      <span>VOLVO</span>
+      <span>AUDI</span>
+      <span>ACURA</span>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIRNOS -->
+  <section class="why-us max-container">
+    <div class="why-us-image">
+      <!-- Cambia la ruta a la imagen guardada en tu VS Code -->
+      <img src="Captura de pantalla 2026-11-07 084751.jpg" alt="Audi R8" onerror="this.src='https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=800&q=80'" />
+    </div>
+
+    <div class="why-us-content">
+      <span class="badge">Why choose us</span>
+      <h2>We offer the best experience with our rental deals</h2>
+
+      <div class="features-list">
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fa-solid fa-wallet"></i></div>
+          <div>
+            <h4>Best price guaranteed</h4>
+            <p>Find a lower price? We'll refund 100% of the difference.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fa-solid fa-user-check"></i></div>
+          <div>
+            <h4>Experience driver</h4>
+            <p>Don't have a driver? Don't worry, we have many experienced drivers.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <div>
+            <h4>24 hour car delivery</h4>
+            <p>Book your car anytime and we will deliver it directly to you.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon"><i class="fa-solid fa-headset"></i></div>
+          <div>
+            <h4>24/7 technical support</h4>
+            <p>Have a question? Contact support team any time when you have a problem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section class="deals-section max-container">
+    <span class="badge">Popular rental deals</span>
+    <h2>Most popular cars rental deals</h2>
+
+    <div class="cars-grid">
+      <!-- Tarjeta 1 -->
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=400&q=80" alt="Jaguar XE" />
+        <h3>Jaguar XE L XE 1.5</h3>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i> <span>4.8</span> <small>(2,436 reviews)</small>
+        </div>
+        <div class="specs">
+          <div><i class="fa-solid fa-user"></i> 4 Passagers</div>
+          <div><i class="fa-solid fa-gear"></i> Auto</div>
+          <div><i class="fa-solid fa-snowflake"></i> Air Conditioning</div>
+          <div><i class="fa-solid fa-door-closed"></i> 4 Doors</div>
+        </div>
+        <div class="card-footer">
+          <div class="price">$1,800 <span>/day</span></div>
+          <button class="btn-rent">Rent now</button>
+        </div>
+      </div>
+
+      <!-- Tarjeta 2 -->
+      <div class="car-card">
+        <img src="Captura de pantalla 2026-11-07 084751.jpg" alt="Audi R8" onerror="this.src='https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=400&q=80'" />
+        <h3>Audi R8</h3>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i> <span>4.6</span> <small>(1,936 reviews)</small>
+        </div>
+        <div class="specs">
+          <div><i class="fa-solid fa-user"></i> 2 Passagers</div>
+          <div><i class="fa-solid fa-gear"></i> Auto</div>
+          <div><i class="fa-solid fa-snowflake"></i> Air Conditioning</div>
+          <div><i class="fa-solid fa-door-closed"></i> 2 Doors</div>
+        </div>
+        <div class="card-footer">
+          <div class="price">$2,100 <span>/day</span></div>
+          <button class="btn-rent">Rent now</button>
+        </div>
+      </div>
+
+      <!-- Tarjeta 3 -->
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=400&q=80" alt="BMW M3" />
+        <h3>BMW M3</h3>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i> <span>4.5</span> <small>(1,210 reviews)</small>
+        </div>
+        <div class="specs">
+          <div><i class="fa-solid fa-user"></i> 4 Passagers</div>
+          <div><i class="fa-solid fa-gear"></i> Auto</div>
+          <div><i class="fa-solid fa-snowflake"></i> Air Conditioning</div>
+          <div><i class="fa-solid fa-door-closed"></i> 4 Doors</div>
+        </div>
+        <div class="card-footer">
+          <div class="price">$1,600 <span>/day</span></div>
+          <button class="btn-rent">Rent now</button>
+        </div>
+      </div>
+
+      <!-- Tarjeta 4 -->
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=400&q=80" alt="Lamborghini Huracan" />
+        <h3>Lamborghini Huracan</h3>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i> <span>4.9</span> <small>(3,100 reviews)</small>
+        </div>
+        <div class="specs">
+          <div><i class="fa-solid fa-user"></i> 2 Passagers</div>
+          <div><i class="fa-solid fa-gear"></i> Auto</div>
+          <div><i class="fa-solid fa-snowflake"></i> Air Conditioning</div>
+          <div><i class="fa-solid fa-door-closed"></i> 2 Doors</div>
+        </div>
+        <div class="card-footer">
+          <div class="price">$2,300 <span>/day</span></div>
+          <button class="btn-rent">Rent now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container max-container">
+      <div class="footer-col big">
+        <div class="logo">
+          <div class="logo-icon"><i class="fa-solid fa-car"></i></div>
+          <span class="logo-text light">RENTCARS</span>
+        </div>
+        <p>Where quality meets affordability. We offer the best cars for your special trip or daily drive.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Our Products</h4>
+        <a href="#">Career</a>
+        <a href="#">Car Packages</a>
+        <a href="#">Features</a>
+        <a href="#">Pricings</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="#">Download</a>
+        <a href="#">Help Centre</a>
+        <a href="#">Guides</a>
+        <a href="#">Partner Network</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
